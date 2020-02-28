@@ -197,7 +197,7 @@
         <!--Navigation Controller-->
         <scene sceneID="07R-nm-kig">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="KId-FZ-fTU" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavigationController" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="KId-FZ-fTU" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="38M-Mb-sl4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
