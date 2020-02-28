@@ -79,45 +79,48 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostTableViewCell" rowHeight="390" id="d8M-sT-iep" customClass="PostTableViewCell" customModule="Parstagram" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="390"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostTableViewCell" rowHeight="428" id="d8M-sT-iep" customClass="PostTableViewCell" customModule="Parstagram" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="428"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="d8M-sT-iep" id="7ik-JO-3Su">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="390"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="428"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hLy-6A-8Ru">
-                                                    <rect key="frame" x="8" y="19" width="0.0" height="335"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gcl-nI-vsC">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="gcl-nI-vsC" secondAttribute="height" multiplier="1:1" id="wLN-tb-YKT"/>
+                                                    </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="luq-T5-UmK">
-                                                    <rect key="frame" x="8" y="362" width="46" height="20"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Comment" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uoh-7D-Z1d">
+                                                    <rect key="frame" x="88" y="400" width="75" height="20"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nR5-x3-B1U">
-                                                    <rect key="frame" x="62" y="362" width="75" height="20"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHH-e6-sEN">
+                                                    <rect key="frame" x="15" y="204" width="48" height="412"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="luq-T5-UmK" firstAttribute="top" secondItem="hLy-6A-8Ru" secondAttribute="bottom" constant="8" id="8V7-Nm-WCv"/>
-                                                <constraint firstItem="hLy-6A-8Ru" firstAttribute="top" secondItem="7ik-JO-3Su" secondAttribute="topMargin" constant="8" id="CGR-DC-OWY"/>
-                                                <constraint firstItem="luq-T5-UmK" firstAttribute="leading" secondItem="7ik-JO-3Su" secondAttribute="leading" constant="8" id="U9G-Ms-WIc"/>
-                                                <constraint firstItem="nR5-x3-B1U" firstAttribute="leading" secondItem="luq-T5-UmK" secondAttribute="trailing" constant="8" id="hbz-On-e0U"/>
-                                                <constraint firstItem="hLy-6A-8Ru" firstAttribute="leading" secondItem="7ik-JO-3Su" secondAttribute="leading" constant="8" id="kHa-Pt-mdp"/>
-                                                <constraint firstAttribute="bottom" secondItem="luq-T5-UmK" secondAttribute="bottom" constant="8" id="khh-T3-O7A"/>
-                                                <constraint firstItem="luq-T5-UmK" firstAttribute="top" secondItem="hLy-6A-8Ru" secondAttribute="bottom" constant="8" id="qLa-cb-HV8"/>
-                                                <constraint firstAttribute="bottom" secondItem="nR5-x3-B1U" secondAttribute="bottom" constant="8" id="wp7-eS-2PK"/>
-                                                <constraint firstAttribute="trailing" secondItem="hLy-6A-8Ru" secondAttribute="trailing" constant="8" id="z1o-E5-jbn"/>
+                                                <constraint firstItem="lHH-e6-sEN" firstAttribute="leading" secondItem="7ik-JO-3Su" secondAttribute="leading" constant="8" id="0hR-6L-Bnz"/>
+                                                <constraint firstItem="gcl-nI-vsC" firstAttribute="top" secondItem="7ik-JO-3Su" secondAttribute="top" id="96l-II-aOn"/>
+                                                <constraint firstItem="uoh-7D-Z1d" firstAttribute="leading" secondItem="lHH-e6-sEN" secondAttribute="trailing" constant="8" id="F5v-ct-EZg"/>
+                                                <constraint firstAttribute="trailing" secondItem="gcl-nI-vsC" secondAttribute="trailing" id="M67-bW-TIq"/>
+                                                <constraint firstItem="lHH-e6-sEN" firstAttribute="top" secondItem="gcl-nI-vsC" secondAttribute="bottom" constant="8" id="TyF-1e-Pnt"/>
+                                                <constraint firstAttribute="bottom" secondItem="uoh-7D-Z1d" secondAttribute="bottom" constant="8" id="bB7-5p-Zrf"/>
+                                                <constraint firstItem="gcl-nI-vsC" firstAttribute="leading" secondItem="7ik-JO-3Su" secondAttribute="leading" id="jER-Gf-5hB"/>
+                                                <constraint firstAttribute="trailing" secondItem="uoh-7D-Z1d" secondAttribute="trailing" constant="8" id="kHW-fN-Jqc"/>
+                                                <constraint firstItem="uoh-7D-Z1d" firstAttribute="top" secondItem="gcl-nI-vsC" secondAttribute="bottom" constant="8" id="wXU-OU-lgN"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="captionLabel" destination="nR5-x3-B1U" id="5w9-Vc-lap"/>
-                                            <outlet property="photoView" destination="hLy-6A-8Ru" id="MJD-5W-oos"/>
-                                            <outlet property="usernameLabel" destination="luq-T5-UmK" id="Co8-2e-KFf"/>
+                                            <outlet property="captionLabel" destination="uoh-7D-Z1d" id="vUo-dd-cCy"/>
+                                            <outlet property="photoView" destination="gcl-nI-vsC" id="MOj-gt-xoP"/>
+                                            <outlet property="usernameLabel" destination="lHH-e6-sEN" id="gw0-HX-Ezs"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
