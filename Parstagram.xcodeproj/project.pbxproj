@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040FF0C6240F284300503775 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FF0C5240F284300503775 /* CommentCell.swift */; };
 		048250F32405F7C900CAFBE3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048250F22405F7C900CAFBE3 /* LoginViewController.swift */; };
 		048250F52405F7D800CAFBE3 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048250F42405F7D800CAFBE3 /* FeedViewController.swift */; };
 		048250F72406063000CAFBE3 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048250F62406063000CAFBE3 /* CameraViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040FF0C5240F284300503775 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		048250F22405F7C900CAFBE3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		048250F42405F7D800CAFBE3 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		048250F62406063000CAFBE3 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				048250F42405F7D800CAFBE3 /* FeedViewController.swift */,
 				048250F62406063000CAFBE3 /* CameraViewController.swift */,
 				048250F82406186100CAFBE3 /* PostTableViewCell.swift */,
+				040FF0C5240F284300503775 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				048250F52405F7D800CAFBE3 /* FeedViewController.swift in Sources */,
 				04B4A2262405DD39006909C4 /* SceneDelegate.swift in Sources */,
 				048250F92406186100CAFBE3 /* PostTableViewCell.swift in Sources */,
+				040FF0C6240F284300503775 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
